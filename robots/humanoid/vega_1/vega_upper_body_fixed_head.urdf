@@ -75,6 +75,7 @@
       </geometry>
     </collision>
   </link>
+  <link name="zed_left_camera" />
   <link name="L_arm_l1">
     <inertial>
       <origin xyz="0.0285 0.05287 0.00576" rpy="0 0 0" />
@@ -892,6 +893,13 @@
     <axis xyz="0 -1 0" />
     <limit lower="-1.378" upper="1.483" effort="7" velocity="3.14" />
   </joint>
+  <joint name="zed_left_cam_mount" type="fixed">
+    <origin xyz="0.025 0.023 0.0489" rpy="-1.57079 0 -1.57079" />
+    <parent link="head_l3" />
+    <child link="zed_left_camera" />
+    <axis xyz="0 0 0" />
+  </joint>
+
   <joint name="L_arm_j1" type="revolute">
     <origin xyz="-0.05908 0.09146 0.44528" rpy="0 0 0" />
     <parent link="torso_l3" />
