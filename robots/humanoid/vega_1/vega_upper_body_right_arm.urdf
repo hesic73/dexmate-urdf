@@ -481,21 +481,21 @@
     <parent link="torso_l3" />
     <child link="head_l1" />
     <axis xyz="0 1 0" />
-    <limit lower="-1.483" upper="1.483" effort="6" velocity="3.14" />
+    <limit lower="-1.483" upper="1.483" effort="6" velocity="3.2" />
   </joint>
   <joint name="head_j2" type="revolute">
     <origin xyz="0 0.0725 -0.0035" rpy="0 0 0" />
     <parent link="head_l1" />
     <child link="head_l2" />
     <axis xyz="0 0 1" />
-    <limit lower="-2.792" upper="2.792" effort="2.5" velocity="3.14" />
+    <limit lower="-2.792" upper="2.792" effort="2.5" velocity="3.2" />
   </joint>
   <joint name="head_j3" type="revolute">
     <origin xyz="0 0.002 0.0495" rpy="0 0 0" />
     <parent link="head_l2" />
     <child link="head_l3" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.378" upper="1.483" effort="6" velocity="3.14" />
+    <limit lower="-1.378" upper="1.483" effort="6" velocity="3.2" />
   </joint>
   <joint name="zed_left_depth_mount" type="fixed">
     <origin xyz="0.025 0.023 0.0489" rpy="-1.57079 0 -1.57079" />
@@ -522,49 +522,49 @@
     <parent link="torso_l3" />
     <child link="R_arm_l1" />
     <axis xyz="0 -1 0" />
-    <limit lower="-3.071" upper="3.071" effort="160" velocity="3.14" />
+    <limit lower="-3.071" upper="3.071" effort="150" velocity="2.4" />
   </joint>
   <joint name="R_arm_j2" type="revolute">
     <origin xyz="0.04 -0.06 0.0454" rpy="0 0 0" />
     <parent link="R_arm_l1" />
     <child link="R_arm_l2" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.553" upper="0.453" effort="160" velocity="3.14" />
+    <limit lower="-1.553" upper="0.453" effort="150" velocity="2.4" />
   </joint>
   <joint name="R_arm_j3" type="revolute">
     <origin xyz="0.1644 0 -0.043" rpy="0 0 0" />
     <parent link="R_arm_l2" />
     <child link="R_arm_l3" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.14" upper="3.14" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="80" velocity="2.7" />
   </joint>
   <joint name="R_arm_j4" type="revolute">
     <origin xyz="0.113 0.0433 0.06" rpy="0 0 0" />
     <parent link="R_arm_l3" />
     <child link="R_arm_l4" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.14" upper="0.313" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="0.244" effort="80" velocity="2.7" />
   </joint>
   <joint name="R_arm_j5" type="revolute">
     <origin xyz="0.1938 -0.0434 -0.04" rpy="0 0 0" />
     <parent link="R_arm_l4" />
     <child link="R_arm_l5" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.14" upper="3.14" effort="27" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="25" velocity="2.7" />
   </joint>
   <joint name="R_arm_j6" type="revolute">
     <origin xyz="0.0762 -0.0319 0" rpy="0 0 0" />
     <parent link="R_arm_l5" />
     <child link="R_arm_l6" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.462" upper="1.462" effort="27" velocity="3.93" />
+    <limit lower="-1.396" upper="1.396" effort="25" velocity="2.7" />
   </joint>
   <joint name="R_arm_j7" type="revolute">
     <origin xyz="0.065 0.032 0.0319" rpy="0 0 0" />
     <parent link="R_arm_l6" />
     <child link="R_arm_l7" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.183" upper="1.444" effort="27" velocity="3.93" />
+    <limit lower="-1.117" upper="1.378" effort="25" velocity="2.7" />
   </joint>
   <joint name="R_arm_j8" type="fixed">
     <origin xyz="0.11597 0 -0.032" rpy="0 1.57079 0" />

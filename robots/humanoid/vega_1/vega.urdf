@@ -186,7 +186,7 @@
     <parent link="base" />
     <child link="torso_l1" />
     <axis xyz="0 -1 0" />
-    <limit lower="0" upper="1.570" effort="802" velocity="1.47" />
+    <limit lower="0" upper="1.570" effort="700" velocity="0.8" />
   </joint>
   <link name="torso_l2">
     <inertial>
@@ -213,7 +213,7 @@
     <parent link="torso_l1" />
     <child link="torso_l2" />
     <axis xyz="0 1 0" />
-    <limit lower="0" upper="3.141" effort="436" velocity="2.51" />
+    <limit lower="0" upper="3.141" effort="380" velocity="0.8" />
   </joint>
   <link name="torso_l3">
     <inertial>
@@ -239,7 +239,7 @@
     <parent link="torso_l2" />
     <child link="torso_l3" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.570" upper="1.570" effort="436" velocity="2.51" />
+    <limit lower="-1.570" upper="1.570" effort="380" velocity="0.8" />
   </joint>
   <link name="head_l1">
     <inertial>
@@ -266,7 +266,7 @@
     <parent link="torso_l3" />
     <child link="head_l1" />
     <axis xyz="0 1 0" />
-    <limit lower="-1.483" upper="1.483" effort="6" velocity="3.14" />
+    <limit lower="-1.483" upper="1.483" effort="6" velocity="3.2" />
   </joint>
   <link name="head_l2">
     <inertial>
@@ -293,7 +293,7 @@
     <parent link="head_l1" />
     <child link="head_l2" />
     <axis xyz="0 0 1" />
-    <limit lower="-2.792" upper="2.792" effort="2.5" velocity="3.14" />
+    <limit lower="-2.792" upper="2.792" effort="2.5" velocity="3.2" />
   </joint>
   <link name="head_l3">
     <inertial>
@@ -320,7 +320,7 @@
     <parent link="head_l2" />
     <child link="head_l3" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.378" upper="1.483" effort="6" velocity="3.14" />
+    <limit lower="-1.378" upper="1.483" effort="6" velocity="3.2" />
   </joint>
   <link name="zed_depth_frame" />
   <joint name="zed_left_depth_mount" type="fixed">
@@ -371,7 +371,7 @@
     <parent link="torso_l3" />
     <child link="L_arm_l1" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.071" upper="3.071" effort="160" velocity="3.14" />
+    <limit lower="-3.071" upper="3.071" effort="150" velocity="2.4" />
   </joint>
   <link name="L_arm_l2">
     <inertial>
@@ -398,7 +398,7 @@
     <parent link="L_arm_l1" />
     <child link="L_arm_l2" />
     <axis xyz="0 0 1" />
-    <limit lower="-0.453" upper="1.553" effort="160" velocity="3.14" />
+    <limit lower="-0.453" upper="1.553" effort="150" velocity="2.4" />
   </joint>
   <link name="L_arm_l3">
     <inertial>
@@ -425,7 +425,7 @@
     <parent link="L_arm_l2" />
     <child link="L_arm_l3" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.071" upper="3.071" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="80" velocity="2.7" />
   </joint>
   <link name="L_arm_l4">
     <inertial>
@@ -452,7 +452,7 @@
     <parent link="L_arm_l3" />
     <child link="L_arm_l4" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.071" upper="0.244" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="0.244" effort="80" velocity="2.7" />
   </joint>
   <link name="L_arm_l5">
     <inertial>
@@ -479,7 +479,7 @@
     <parent link="L_arm_l4" />
     <child link="L_arm_l5" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.071" upper="3.071" effort="27" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="25" velocity="2.7" />
   </joint>
   <link name="L_arm_l6">
     <inertial>
@@ -506,7 +506,7 @@
     <parent link="L_arm_l5" />
     <child link="L_arm_l6" />
     <axis xyz="0 1 0" />
-    <limit lower="-1.396" upper="1.396" effort="27" velocity="3.93" />
+    <limit lower="-1.396" upper="1.396" effort="25" velocity="2.7" />
   </joint>
   <link name="L_arm_l7">
     <inertial>
@@ -533,7 +533,7 @@
     <parent link="L_arm_l6" />
     <child link="L_arm_l7" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.378" upper="1.117" effort="27" velocity="3.93" />
+    <limit lower="-1.378" upper="1.117" effort="25" velocity="2.7" />
   </joint>
   <link name="L_arm_l8">
     <inertial>
@@ -593,7 +593,7 @@
     <parent link="torso_l3" />
     <child link="R_arm_l1" />
     <axis xyz="0 -1 0" />
-    <limit lower="-3.071" upper="3.071" effort="160" velocity="3.14" />
+    <limit lower="-3.071" upper="3.071" effort="150" velocity="2.4" />
   </joint>
   <link name="R_arm_l2">
     <inertial>
@@ -620,7 +620,7 @@
     <parent link="R_arm_l1" />
     <child link="R_arm_l2" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.553" upper="0.453" effort="160" velocity="3.14" />
+    <limit lower="-1.553" upper="0.453" effort="150" velocity="2.4" />
   </joint>
   <link name="R_arm_l3">
     <inertial>
@@ -647,7 +647,7 @@
     <parent link="R_arm_l2" />
     <child link="R_arm_l3" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.14" upper="3.14" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="80" velocity="2.7" />
   </joint>
   <link name="R_arm_l4">
     <inertial>
@@ -674,7 +674,7 @@
     <parent link="R_arm_l3" />
     <child link="R_arm_l4" />
     <axis xyz="0 1 0" />
-    <limit lower="-3.14" upper="0.313" effort="80" velocity="3.93" />
+    <limit lower="-3.071" upper="0.244" effort="80" velocity="2.7" />
   </joint>
   <link name="R_arm_l5">
     <inertial>
@@ -701,7 +701,7 @@
     <parent link="R_arm_l4" />
     <child link="R_arm_l5" />
     <axis xyz="1 0 0" />
-    <limit lower="-3.14" upper="3.14" effort="27" velocity="3.93" />
+    <limit lower="-3.071" upper="3.071" effort="25" velocity="2.7" />
   </joint>
   <link name="R_arm_l6">
     <inertial>
@@ -728,7 +728,7 @@
     <parent link="R_arm_l5" />
     <child link="R_arm_l6" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.462" upper="1.462" effort="27" velocity="3.93" />
+    <limit lower="-1.396" upper="1.396" effort="25" velocity="2.7" />
   </joint>
   <link name="R_arm_l7">
     <inertial>
@@ -755,7 +755,7 @@
     <parent link="R_arm_l6" />
     <child link="R_arm_l7" />
     <axis xyz="0 0 1" />
-    <limit lower="-1.183" upper="1.444" effort="27" velocity="3.93" />
+    <limit lower="-1.117" upper="1.378" effort="25" velocity="2.7" />
   </joint>
   <link name="R_arm_l8">
     <inertial>
