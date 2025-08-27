@@ -712,21 +712,21 @@
     <parent link="base" />
     <child link="torso_l1" />
     <axis xyz="0 -1 0" />
-    <limit lower="0" upper="1.570" effort="700" velocity="0.8" />
+    <limit lower="0" upper="1.570" effort="700" velocity="0.9" />
   </joint>
   <joint name="torso_j2" type="revolute">
     <origin xyz="0.396 -0.06 0.082" rpy="0 0 0" />
     <parent link="torso_l1" />
     <child link="torso_l2" />
     <axis xyz="0 1 0" />
-    <limit lower="0" upper="3.141" effort="380" velocity="0.8" />
+    <limit lower="0" upper="3.141" effort="380" velocity="0.9" />
   </joint>
   <joint name="torso_j3" type="revolute">
     <origin xyz="-0.40718 0.058 0.09764" rpy="0 0 0" />
     <parent link="torso_l2" />
     <child link="torso_l3" />
     <axis xyz="0 -1 0" />
-    <limit lower="-1.570" upper="1.570" effort="380" velocity="0.8" />
+    <limit lower="-1.570" upper="1.570" effort="380" velocity="0.9" />
   </joint>
   <joint name="head_j1" type="revolute">
     <origin xyz="-0.13258 -0.1505 0.45928" rpy="0 0 0" />
