@@ -70,6 +70,22 @@ dexmate_urdf.robots
 └── ... # More robots
 ```
 
+## Changelog
+
+### [0.6.3] - 2025-09-02
+- Fix the inertia and mass of vega robot to align with the real hardware
+- Add auxiliary arm center frame for computation purpose
+
+### [0.6.2] - 2025-08-26
+- Increase the default torso velocity limit from 0.8 to 0.9 compared 0.6.1
+- Add a missing collision pair in srdf for the hand
+
+### [0.6.0] - 2025-08-01
+- Mesh simplification for vega-1 visual geometry, 3x file size reduction by @kai-liang_dmai and the rendering speed now match the rc2 in viser
+- Change the [L|R]_arm_l8 definition so it matches the orientation of the real force torque sensor readings
+- Remove legacy vega-rc1 and vega-rc2 USD release
+
+
 ## 📄 Licensing
 
 ### 🔓 Apache License 2.0
