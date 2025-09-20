@@ -1,7 +1,4 @@
-# https://github.com/mikedh/trimesh
 mtllib material.mtl
-
-o LB_ultrasonic_Link.002
 usemtl material_0
 v -0.00410000 0.00749537 -0.00500694
 v -0.00410000 0.00749537 -0.00500694

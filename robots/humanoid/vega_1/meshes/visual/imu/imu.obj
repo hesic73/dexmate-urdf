@@ -1,7 +1,4 @@
-# https://github.com/mikedh/trimesh
 mtllib material.mtl
-
-o imu_Link
 usemtl material_0
 v -0.01550000 0.01337868 -0.01610000
 v -0.01550000 0.01337868 -0.01610000

@@ -1,7 +1,4 @@
-# https://github.com/mikedh/trimesh
 mtllib material.mtl
-
-o L_arm_l4_Link
 usemtl material_0
 v 0.03051556 -0.08625481 -0.04126755
 v 0.03051556 -0.08625481 -0.04126755

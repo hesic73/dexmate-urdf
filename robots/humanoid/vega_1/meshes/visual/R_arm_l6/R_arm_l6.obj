@@ -1,7 +1,4 @@
-# https://github.com/mikedh/trimesh
 mtllib material.mtl
-
-o Mesh_0.039
 usemtl material_0
 v 0.04548308 0.05304240 -0.04031938
 v 0.04548308 0.05304240 -0.04031938
