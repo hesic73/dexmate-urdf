@@ -182,7 +182,7 @@
     <mesh file="meshes/visual/wheel_l2/wheel_l2_1.obj" name="wheel_l2_1" />
   </asset>
   <worldbody>
-    <body name="base" pos="0.00000000 0.00000000 0.01400000" quat="1 0 0 0" childclass="robot">
+    <body name="base" pos="0.00000000 0.00000000 0.0500000" quat="1 0 0 0" childclass="robot">
       <freejoint name="floating_base" />
       <geom name="base_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="base.obj" class="collision" />
       <geom name="base_visual_0" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="base_material_7" type="mesh" mesh="base_0" class="visual" />
