@@ -17,7 +17,8 @@
   <asset>
     <material name="default_material" rgba="0.7 0.7 0.7 1" />
     <material name="visualgeom" rgba="0.7 0.7 0.7 1" />
-    <material name="collision_material" rgba="1.0 0.28 0.1 0.9" />
+    <!-- <material name="collision_material" rgba="1.0 0.28 0.1 0.9" /> -->
+    <material name="collision_material" rgba="1.0 0.28 0.1 0.0" />
     <material name="B_wheel_l1_material_0" specular="0.4000000000000001" shininess="0.001" rgba="0.00000000 0.00000000 0.00000000 1.0" />
     <material name="B_wheel_l2_material_0" specular="0.4000000000000001" shininess="0.001" rgba="0.89803922 0.91372549 0.92549020 1.0" />
     <material name="B_wheel_l2_material_1" specular="0.4000000000000001" shininess="0.001" rgba="0.00000000 0.00000000 0.00000000 1.0" />
